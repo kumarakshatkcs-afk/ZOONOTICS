@@ -1,0 +1,8 @@
+{
+  "name": "SYNAPSE - One Health Surveillance Platform",
+  "description": "A world-class zoonotic disease detection and surveillance application designed for real-time tracking, AI-powered outbreak prediction, and field reporting to bridge the gap between human, animal, and environmental health.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "synapse---one-health-surveillance-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "live": "npx serve dist -p 3001 & npx localtunnel --port 3001"
+  },
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "localtunnel": "^2.0.2",
+    "netlify-cli": "^24.10.0",
+    "typescript": "~5.8.2",
+    "vercel": "^50.40.0",
+    "vite": "^6.2.0"
+  }
+}
